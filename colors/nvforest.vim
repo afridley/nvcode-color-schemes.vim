@@ -8,7 +8,7 @@ endif
 let g:colors_name='nvforest'
 
 hi Normal guifg=#ccc0a5 ctermfg=181 guibg=#2f383e ctermbg=237 gui=NONE cterm=NONE
-hi Comment guifg=#93aa75 ctermfg=108 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Comment guifg=#4c566a ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#93aa75 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#de9472 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -94,8 +94,8 @@ hi TSPunctSpecial guifg=#ccc0a5 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cte
 hi TSConstant guifg=#ccc0a5 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstBuiltin guifg=#6ea09b ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstMacro guifg=#6ea09b ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSStringRegex guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSString guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSStringRegex guifg=#93aa75 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSString guifg=#93aa75 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringEscape guifg=#d7ba7d ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSCharacter guifg=#de9472 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNumber guifg=#7eb98d ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -113,11 +113,11 @@ hi TSMethod guifg=#93aa75 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi TSField guifg=#ebcb8b ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSProperty guifg=#6ea09b ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#6ea09b ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSConditional guifg=#bd8aa4 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSConditional guifg=#cf7577 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSRepeat guifg=#bd8aa4 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#8fb2bc ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSKeyword guifg=#cf7577 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSKeywordFunction guifg=#cf7577 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSKeyword guifg=#de9472 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSKeywordFunction guifg=#93aa75 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSKeywordOperator guifg=#cf7577 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSOperator guifg=#ccc0a5 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSException guifg=#bd8aa4 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -125,8 +125,8 @@ hi TSType guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSTypeBuiltin guifg=#81a1c1 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStructure guifg=#ff00ff ctermfg=201 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSInclude guifg=#bd8aa4 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSVariable guifg=#de9472 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSVariableBuiltin guifg=#de9472 ctermfg=173 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSVariable guifg=#ccc0a5 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSVariableBuiltin guifg=#bd8aa4 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSText guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStrong guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSEmphasis guifg=#ffff00 ctermfg=226 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

@@ -33,7 +33,7 @@ palette:
 highlights:
   Normal: "fg bg"
 
-  Comment: "green - i"
+  Comment: "visual_grey"
   Constant: "yellow"
   String: "green"
   Character: "orange"
@@ -128,8 +128,8 @@ highlights:
   TSConstBuiltin: "blue"
   # Not sure about this guy
   TSConstMacro: "cyan"
-  TSStringRegex: "yellow"
-  TSString: "yellow"
+  TSStringRegex: "green"
+  TSString: "green"
   TSStringEscape: "dark_yellow"
   TSCharacter: "orange"
   TSNumber: "light_green"
@@ -149,12 +149,12 @@ highlights:
   TSProperty: "cyan"
   TSConstructor: "cyan"
   # Keywords
-  TSConditional: "purple"
+  TSConditional: "red"
   TSRepeat: "purple"
   TSLabel: "light_blue"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "red"
-  TSKeywordFunction: "red"
+  TSKeyword: "orange"
+  TSKeywordFunction: "green"
   TSKeywordOperator: "red"
   TSOperator: "white"
   TSException: "purple"
@@ -163,8 +163,8 @@ highlights:
   TSStructure: "#FF00FF"
   TSInclude: "purple"
   # Variable
-  TSVariable: "orange"
-  TSVariableBuiltin: "orange"
+  TSVariable: "white"
+  TSVariableBuiltin: "purple"
   # Text
   TSText: "#FFFF00"
   TSStrong: "#FFFF00"
